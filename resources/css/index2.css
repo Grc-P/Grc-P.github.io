@@ -35,6 +35,7 @@ body {
     font-size: clamp(15px, 5vw,25px);
     padding: 10px 0;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .navigation a:hover {
@@ -49,7 +50,7 @@ body {
     font-weight: 800;
     font-size: clamp(20px, 5vw, 45px);
     text-align:center;
-    text-shadow: 5px 5px darkseagreen;
+    text-shadow: 3px 5px darkseagreen;
     color: white;
     background-position: center top;
     background-size: cover;
@@ -63,7 +64,7 @@ body {
     color: darkseagreen; 
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
-    margin: 20px 10px;
+    margin: 20px 20px;
     display: inline-block;
     text-align: center;
     padding: 0px 10px;
@@ -79,7 +80,7 @@ body {
 h2{
     margin-top: 0;
     font-family: 'Courier New', Courier, monospace;
-    text-shadow: 4px 4px black;
+    /*text-shadow: 4px 4px black; */
     color: white;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
