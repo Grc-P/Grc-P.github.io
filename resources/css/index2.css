@@ -40,8 +40,12 @@ body {
 
 .navigation a:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
 
+.navigation a:active {
+    color:black;
+}
 
 .banner{
     background-image: url("../images/3-pot-cropped-final.jpg");
@@ -95,6 +99,5 @@ h2{
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin: 20px 50px;
-
-
 }
+
