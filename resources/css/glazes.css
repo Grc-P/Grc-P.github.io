@@ -120,7 +120,7 @@ body {
 h2{
     margin-top: 0;
     font-family: 'Courier New', Courier, monospace;
-    text-shadow: 3px 3px black;
+    /*text-shadow: 3px 3px black; */
     color: white;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
@@ -163,3 +163,7 @@ h2{
   height: auto;
 }
 
+
+.bad_glazing h2 {
+    margin-top: 25px;
+}
