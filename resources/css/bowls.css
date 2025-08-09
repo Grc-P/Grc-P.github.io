@@ -55,7 +55,7 @@ body {
 
 
 .banner{
-    background-image: url("../images/old_pot_selection.jpg");
+    background-image: url("../images/compressed/banners/old_pot_selection.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     background-position: center center !important;
     background-size: cover;

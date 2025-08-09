@@ -85,7 +85,7 @@ body {
 
 
 .banner{
-    background-image: url("../images/purple_dip.jpg");
+    background-image: url("../images/compressed/banners/purple_dip.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;

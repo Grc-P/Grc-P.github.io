@@ -85,7 +85,7 @@ body {
 
 
 .banner{
-    background-image: url("../images/mug_trio.jpg");
+    background-image: url("../images/compressed/banners/mug_trio.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;

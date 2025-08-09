@@ -49,7 +49,7 @@ body {
 }
 
 .banner{
-    background-image: url("../images/3-pot-cropped-final.jpg");
+    background-image: url("../images/compressed/banners/3-pot-cropped-final.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
