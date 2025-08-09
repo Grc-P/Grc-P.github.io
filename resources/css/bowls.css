@@ -50,36 +50,6 @@ body {
     color:black;
 }
 
-/*
-.navigation {
-    box-sizing: border-box;
-    background-color: #fff;
-    border-bottom: 1px solid black;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
-    display: flex;                  /* turn into flex container */
-    /*justify-content: space-evenly;  /* even spacing */
-    /*align-items: center; 
-}
-
-.navigation a {
-    flex: 1;  /* Make each link take equal width */
-   /* text-align: center;             /* Center text inside each link */
-   /* font-family:'Courier New', Courier, monospace;
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-    width:100%;
-
-}
-
-
-
-.navigation a:hover{
-     text-decoration: underline;
-} 
-
 /* Add button functions to the nav-link classed anchors */
 
 
@@ -138,21 +108,26 @@ h2{
  }
 
 
- .mug_imgs1 {
+ .bowl_imgs1 {
     display: flex;
     gap:10px;
     justify-content: center;
  }
 
-.mug_imgs1 img {
+.bowl_imgs1 img {
+  margin: 20px auto;
+  height: clamp(300px, 5vw, 1500px);
+  width: auto;
+}
+
+ .bowl_imgs2 {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+ }
+
+.bowl_imgs2 img {
   margin: 0 auto;
   width: clamp(100px, 50vw, 500px);
   height: auto;
 }
-
- .mug_imgs2 {
-    display: flex;
-    gap:10px;
-    justify-content: center;
-    margin-top: 25px;
- }
