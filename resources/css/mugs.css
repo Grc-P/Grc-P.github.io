@@ -1,0 +1,178 @@
+/* This style sheet is simply a diffrernet colour to the other one as of inital commits */
+
+
+body {
+    background-color: Lightsalmon;
+    margin: 0px;
+    padding:0px
+}
+
+/* cornflowerblue is a lovely colour alternative to black and white website */
+.navigation {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 2px solid Lightsalmon;
+    width: 100%;
+    z-index: 999;
+}
+
+.navigation ul {
+    display: flex;                  /* make list flex */
+    justify-content: space-evenly;  /* space items evenly across */
+    align-items: center;
+    list-style: none;               /* remove bullet points */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation li {
+    flex: 1;                         /* each item takes equal space */
+    text-align: center;              /* center text inside slot */
+}
+
+.navigation a {
+    display: block;                  /* make link fill the li */
+    font-family: 'Courier New', Courier, monospace;
+    color: Lightsalmon;
+    font-size: clamp(15px, 5vw,25px);
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+     font-weight: bold;
+
+}
+
+.navigation a:active {
+    color:black;
+}
+
+/*
+.navigation {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    display: flex;                  /* turn into flex container */
+    /*justify-content: space-evenly;  /* even spacing */
+    /*align-items: center; 
+}
+
+.navigation a {
+    flex: 1;  /* Make each link take equal width */
+   /* text-align: center;             /* Center text inside each link */
+   /* font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    width:100%;
+
+}
+
+
+
+.navigation a:hover{
+     text-decoration: underline;
+} 
+
+/* Add button functions to the nav-link classed anchors */
+
+
+.banner{
+    background-image: url("../images/mug_trio.jpg");
+    /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: clamp(20px, 5vw, 45px);
+    text-align:center;
+    text-shadow: 5px 5px Lightsalmon;
+    color: white;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.tagline {
+    font-family: 'Courier New', Courier, monospace;
+    color: Lightsalmon; 
+    text-shadow: none; 
+    font-size: clamp(10px, 5vw, 25px);
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 15px;
+    font-weight: bold;
+    background-color: white;
+     max-width: calc(100% - 20px); /* never full width, always some margin */
+    position: relative;
+    z-index: 1;
+     
+}
+
+
+h2{
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px black;
+    color: white;
+    text-align: center;
+    font-size: clamp(17px, 5vw, 35px);
+    background-color: Lightsalmon;
+    padding: 20px;
+}
+
+ p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: Lightsalmon;
+    text-align: center;
+    font-size: clamp(10px, 5vw,20px);
+    margin: 20px 50px;
+ }
+
+
+ .mug_imgs1 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+
+.mug_imgs1 img {
+  margin: 0 auto;
+  width: clamp(100px, 50vw, 500px);
+  height: auto;
+}
+
+ .mug_imgs2 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 25px;
+ }
+
+.mug_imgs2 img {
+  margin: 0 auto;
+  width: clamp(100px, 50vw, 500px);
+  height: auto;
+}
+
+
+ .mug_imgs3 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 25px;
+ }
+
+.mug_imgs3 img {
+  margin: 0 auto;
+  width: clamp(100px, 50vw, 500px);
+  height: auto;
+}
