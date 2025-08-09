@@ -14,6 +14,7 @@ body {
     border-bottom: 2px solid steelblue;
     width: 100%;
     z-index: 999;
+     font-weight: bold;
 }
 
 .navigation ul {
@@ -56,14 +57,14 @@ body {
 .banner{
     background-image: url("../images/old_pot_selection.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
+    background-position: center;
+    background-size: cover;
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
     font-size: clamp(20px, 5vw, 45px);
     text-align:center;
     text-shadow: 5px 5px steelblue;
     color: white;
-    background-position: center top;
-    background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -104,7 +105,9 @@ h2{
     background-color: steelblue; 
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
-    margin: 20px 50px;
+    margin-top: clamp(10px, 5vw,20px);
+    margin-left: clamp(2px,5vw,50px);
+    margin-right: clamp(2px,5vw,50px);
  }
 
 
