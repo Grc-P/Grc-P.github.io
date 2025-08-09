@@ -1,0 +1,148 @@
+/* This style sheet is simply a diffrernet colour to the other one as of inital commits */
+
+
+body {
+    background-color: Firebrick;
+    margin: 0px;
+    padding:0px
+}
+
+/* cornflowerblue is a lovely colour alternative to black and white website */
+.navigation {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 2px solid Firebrick;
+    width: 100%;
+    z-index: 999;
+     font-weight: bold;
+}
+
+.navigation ul {
+    display: flex;                  /* make list flex */
+    justify-content: space-evenly;  /* space items evenly across */
+    align-items: center;
+    list-style: none;               /* remove bullet points */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation li {
+    flex: 1;                         /* each item takes equal space */
+    text-align: center;              /* center text inside slot */
+}
+
+.navigation a {
+    display: block;                  /* make link fill the li */
+    font-family: 'Courier New', Courier, monospace;
+    color: Firebrick;
+    font-size: clamp(15px, 5vw,25px);
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+     font-weight: bold;
+
+}
+
+.navigation a:active {
+    color:black;
+}
+
+/* Add button functions to the nav-link classed anchors */
+
+
+.banner{
+    background-image: url("../images/Whippets/dogs_look_up_cropped.jpg");
+    /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
+    background-position: 50% 90% !important;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: clamp(20px, 5vw, 45px);
+    text-align:center;
+    text-shadow: 5px 5px Firebrick;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.tagline {
+    font-family: 'Courier New', Courier, monospace;
+    color: Firebrick; 
+    text-shadow: none; 
+    font-size: clamp(10px, 5vw, 25px);
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 15px;
+    font-weight: bold;
+    background-color: white;
+     max-width: calc(100% - 20px); /* never full width, always some margin */
+    position: relative;
+    z-index: 1;
+     
+}
+
+
+h2{
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+   /* text-shadow: 3px 3px black; */
+    color: white;
+    text-align: center;
+    font-size: clamp(17px, 5vw, 35px);
+    background-color: Firebrick;
+    padding: 20px;
+}
+
+ p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: Firebrick; 
+    text-align: center;
+    font-size: clamp(10px, 5vw,20px);
+    margin-top: clamp(10px, 5vw,20px);
+    margin-left: clamp(2px,5vw,50px);
+    margin-right: clamp(2px,5vw,50px);
+ }
+
+
+ .bowl_imgs1 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+
+.bowl_imgs1 img {
+  margin: 20px auto;
+  height: clamp(300px, 5vw, 1500px);
+  width: auto;
+}
+
+ .bowl_imgs2 {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+ }
+
+.bowl_imgs2 img {
+  margin: 0 auto;
+  width: clamp(100px, 50vw, 500px);
+  height: auto;
+}
+
+ .bowl_imgs3 {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+ }
+
+.bowl_imgs3 img {
+  margin: 20px auto;
+  width: clamp(400px, 50vw, 1700px);
+  height: auto;
+}
