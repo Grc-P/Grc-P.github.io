@@ -33,15 +33,17 @@ body {
     display: block;                  /* make link fill the li */
     font-family: 'Courier New', Courier, monospace;
     color: darkseagreen;
-    font-size: clamp(15px, 5vw,25px);
+    font-size: clamp(15px, 5vw,25px) ;
     padding: 10px 0;
     text-decoration: none;
     cursor: pointer;
+    transition: transform 0.2s ease, text-decoration 0.2s ease;
 }
 
 .navigation a:hover {
     text-decoration: underline;
     font-weight: bold;
+    transform: scale(1.2);
 }
 
 .navigation a:active {

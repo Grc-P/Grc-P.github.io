@@ -33,17 +33,21 @@ body {
 }
 
 .navigation a {
+    cursor: pointer;
     display: block;                  /* make link fill the li */
     font-family: 'Courier New', Courier, monospace;
     color: Firebrick;
     font-size: clamp(15px, 5vw,25px);
     padding: 10px 0;
     text-decoration: none;
+    transition: transform 0.2s ease, text-decoration 0.2s ease;
+
 }
 
 .navigation a:hover {
     text-decoration: underline;
      font-weight: bold;
+     transform: scale(1.2);
 
 }
 
