@@ -184,3 +184,59 @@ h2{
 .rip h2{
     margin-top: 30px ;
 }
+
+
+ .fallen1 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+
+.fallen1 img{
+  margin: 0 auto;
+  width: clamp(100px, 50vw, 500px);
+  height: auto;
+}
+
+.fallen2 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+
+.fallen2 img{
+  margin: 0 auto;
+  width: clamp(100%, 50vw, 12000px);
+  height: auto;
+  padding-top: 10px;
+}
+
+.fallen3 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+
+.fallen3 img{
+  margin: 0 auto;
+  width: clamp(100px, 30vw, 800px);
+  height: auto;
+}
+
+
+.rip {
+    background-color: black;
+    padding-bottom: 1px; /* prevents original background colour showing at the very bottom of page */
+}
+
+.rip h2{
+    background-color: black
+}
+.rip p{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.last_fallen {
+    padding-bottom: 200px;
+}
