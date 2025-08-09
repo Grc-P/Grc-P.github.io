@@ -131,3 +131,15 @@ h2{
   width: clamp(100px, 50vw, 500px);
   height: auto;
 }
+
+ .bowl_imgs3 {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+ }
+
+.bowl_imgs3 img {
+  margin: 20px auto;
+  width: clamp(400px, 50vw, 1700px);
+  height: auto;
+}
