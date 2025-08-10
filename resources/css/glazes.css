@@ -152,7 +152,7 @@ h2{
 
 .tile_imgs img {
   margin: 0 auto;
-  width: clamp(100px, 50vw, 300px);
+  width: clamp(50px, 30vw, 350px);
   height: auto;
 }
 
@@ -165,7 +165,7 @@ h2{
 
 .dunk_imgs img {
   margin: 0 auto;
-  width: clamp(100px, 50vw, 300px);
+  width: clamp(50px, 50vw, 300px);
   height: auto;
 }
 
