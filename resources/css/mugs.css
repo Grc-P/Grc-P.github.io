@@ -209,7 +209,7 @@ h2{
 
 .fallen2 img{
   margin: 0 auto;
-  width: clamp(100%, 50vw, 12000px);
+  width: clamp(100%, 50vw, 900px);
   height: auto;
   padding-top: 10px;
 }
