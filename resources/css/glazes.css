@@ -102,6 +102,12 @@ body {
     padding-bottom: 50px;
 }
 
+@media (max-width:600px){
+    .banner{
+        background-image: url(../images/optimised/banners-m/purple_dip.webp)
+    }
+}
+
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;

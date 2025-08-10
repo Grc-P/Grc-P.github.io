@@ -102,6 +102,13 @@ body {
     padding-bottom: 50px;
 }
 
+@media (max-width:600px){
+    .banner{
+        background-image: url(../images/optimised/banners-m/mug_trio.webp)
+    }
+}
+
+
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;

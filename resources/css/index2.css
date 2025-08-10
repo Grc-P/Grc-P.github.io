@@ -65,6 +65,12 @@ body {
     padding-bottom: 50px;
 }
 
+@media (max-width:600px){
+    .banner{
+        background-image: url(../images/optimised/banners-m/3-pot-cropped-final.webp)
+    }
+}
+
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
