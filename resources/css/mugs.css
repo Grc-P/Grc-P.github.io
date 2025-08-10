@@ -230,6 +230,7 @@ h2{
 .rip {
     background-color: black;
     padding-bottom: 1px; /* prevents original background colour showing at the very bottom of page */
+    padding-left: 5px;
 }
 
 .rip h2{
