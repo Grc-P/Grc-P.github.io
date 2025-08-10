@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: Lightsalmon;
+    background-color: lightcoral;
     margin: 0px;
     padding:0px
 }
@@ -11,7 +11,7 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid Lightsalmon;
+    border-bottom: 2px solid lightcoral;
     width: 100%;
     z-index: 999;
      font-weight: bold;
@@ -35,7 +35,7 @@ body {
 .navigation a {
     display: block;                  /* make link fill the li */
     font-family: 'Courier New', Courier, monospace;
-    color: Lightsalmon;
+    color: lightcoral;
     font-size: clamp(15px, 5vw,25px);
     padding: 10px 0;
     text-decoration: none;
@@ -94,7 +94,7 @@ body {
     font-weight: 800;
     font-size: clamp(20px, 5vw, 45px);
     text-align:center;
-    text-shadow: 5px 5px Lightsalmon;
+    text-shadow: 5px 5px lightcoral;
     color: white;
     background-position: center top;
     background-size: cover;
@@ -112,7 +112,7 @@ body {
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: Lightsalmon; 
+    color: lightcoral; 
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
     margin: 20px 10px;
@@ -135,14 +135,14 @@ h2{
     color: white;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: Lightsalmon;
+    background-color: lightcoral;
     padding: 20px;
 }
 
  p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-color: Lightsalmon;
+    background-color: lightcoral;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin-top: clamp(10px, 5vw,20px);
