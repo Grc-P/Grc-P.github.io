@@ -128,7 +128,7 @@ h2{
 
 .bowl_imgs1 img {
   margin: 20px auto;
-  height: clamp(190px, 50vw, 900px);
+  height: clamp(190px, 50vw, 500px);
   width: auto;
 }
 
