@@ -1,2 +1,6 @@
 switch bowls and home page images around and also their colour schemes.
-change mugs color scheme form lihtsalmon to something less ugly
+change mugs color scheme form lihtsalmon to something less ugly - lightcoral
+
+change steelblue to #3b9cfe
+
+change cornflowerblue to 
