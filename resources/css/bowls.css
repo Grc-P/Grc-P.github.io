@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: darkseagreen;
+    background-color: #4FA1D1;
     
     margin: 0px;
     padding:0px
@@ -12,7 +12,7 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid darkseagreen;
+    border-bottom: 2px solid #4FA1D1;
     
     width: 100%;
     z-index: 999;
@@ -60,7 +60,7 @@ body {
 
 
 .banner{
-    background-image: url("../images/compressed/banners/3-pot-cropped-final.jpg");
+    background-image: url("../images/compressed/banners/old_pot_selection.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     background-position: top center !important;
     background-size: cover;
@@ -68,7 +68,7 @@ body {
     font-weight: 800;
     font-size: clamp(20px, 5vw, 45px);
     text-align:center;
-    text-shadow: 5px 5px darkseagreen;
+    text-shadow: 5px 5px #4FA1D1;
     
     color: white;
     padding-top: 100px;
@@ -77,7 +77,7 @@ body {
 
 @media (max-width:600px){
     .banner{
-        background-image: url(../images/optimised/banners-m/3-pot-cropped-final.webp)
+        background-image: url(../images/optimised/banners-m/old_pot_selection.webp)
     }
 }
 
@@ -85,7 +85,7 @@ body {
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: darkseagreen; 
+    color: #4FA1D1; 
     
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
@@ -109,7 +109,7 @@ h2{
     color: white;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: darkseagreen;
+    background-color: #4FA1D1;
     
     padding: 20px;
 }
@@ -117,7 +117,7 @@ h2{
  p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-color: darkseagreen; 
+    background-color: #4FA1D1; 
     
     text-align: center;
     font-size: clamp(10px, 5vw,20px);

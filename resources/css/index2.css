@@ -1,5 +1,5 @@
 body {
-    background-color: #3b9cfe;
+    background-color: darkseagreen;
     margin: 0px;
     padding:0px
 }
@@ -8,7 +8,7 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid #3b9cfe;
+    border-bottom: 2px solid darkseagreen;
     width: 100%;
     z-index: 999;
     font-weight: bold;
@@ -32,7 +32,7 @@ body {
 .navigation a {
     display: block;                  /* make link fill the li */
     font-family: 'Courier New', Courier, monospace;
-    color: #3b9cfe;
+    color:darkseagreen;
     font-size: clamp(15px, 5vw,25px) ;
     padding: 10px 0;
     text-decoration: none;
@@ -51,13 +51,13 @@ body {
 }
 
 .banner{
-    background-image: url("../images/compressed/banners/old_pot_selection.jpg");
+    background-image: url("../images/compressed/banners/3-pot-cropped-final.jpg");
     /* note to self- powerpoint reduces image quality considerably when used to crop images, do on phone first instead */
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
     font-size: clamp(20px, 5vw, 45px);
     text-align:center;
-    text-shadow: 3px 5px #3b9cfe;
+    text-shadow: 3px 5px darkseagreen;
     color: white;
     background-position: center center !important;
     background-size: cover;
@@ -67,14 +67,14 @@ body {
 
 @media (max-width:600px){
     .banner{
-        background-image: url(../images/optimised/banners-m/old_pot_selection.webp)
+        background-image: url(../images/optimised/banners-m/3-pot-cropped-final.webp)
     }
 }
 
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: #3b9cfe; 
+    color: darkseagreen; 
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
     margin: 20px 20px;
@@ -97,14 +97,14 @@ h2{
     color: white;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: #3b9cfe;
+    background-color: darkseagreen;
     padding: 20px;
 }
 
  p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-color: #3b9cfe;
+    background-color: darkseagreen;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin-top: clamp(10px, 5vw,20px);
