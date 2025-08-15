@@ -37,7 +37,7 @@ body {
 .navigation a {
     display: block;                  /* make link fill the li */
     font-family: 'Courier New', Courier, monospace;
-    color: darkseagreen;
+    color: #4FA1D1;
     
     font-size: clamp(15px, 5vw,25px);
     padding: 10px 0;
