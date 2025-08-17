@@ -1,7 +1,8 @@
 body {
     background-color: darkseagreen;
     margin: 0px;
-    padding:0px
+    padding:0px;
+
 }
 
 /* cornflowerblue is a lovely colour alternative to black and white website */
@@ -59,7 +60,7 @@ body {
     text-align:center;
     text-shadow: 3px 5px darkseagreen;
     color: white;
-    background-position: too center !important;
+    background-position: top center !important;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
