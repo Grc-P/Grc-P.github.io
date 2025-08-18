@@ -2,16 +2,16 @@
 
 
 body {
-    background-color: mediumpurple;
+    background-color: white;
     margin: 0px;
     padding:0px
 }
 
-/* cornflowerblue is a lovely colour alternative to black and white website */
+/* cornflowerblue is a lovely colour alternative to black and mediumpurple website */
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid mediumpurple;
+    border-bottom: 5px solid mediumpurple;
     width: 100%;
     z-index: 999;
     font-weight: bold;
@@ -54,37 +54,6 @@ body {
     color:black;
 }
 
-/*
-.navigation {
-    box-sizing: border-box;
-    background-color: #fff;
-    border-bottom: 1px solid black;
-    text-align: center;
-    width: 100%;
-    z-index: 999;
-    display: flex;                  /* turn into flex container */
-    /*justify-content: space-evenly;  /* even spacing */
-    /*align-items: center; 
-}
-
-.navigation a {
-    flex: 1;  /* Make each link take equal width */
-   /* text-align: center;             /* Center text inside each link */
-   /* font-family:'Courier New', Courier, monospace;
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-    width:100%;
-
-}
-
-
-
-.navigation a:hover{
-     text-decoration: underline;
-} 
-
-/* Add button functions to the nav-link classed anchors */
 
 
 .banner{
@@ -111,7 +80,7 @@ body {
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: mediumpurple; 
+    color:mediumpurple; 
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
     margin: 20px 10px;
@@ -123,25 +92,29 @@ body {
      max-width: calc(100% - 20px); /* never full width, always some margin */
     position: relative;
     z-index: 1;
+    border-radius: 2px;
      
 }
 
+.mainh2{
+    border-top: 6px solid mediumpurple;
+}
 
 h2{
     margin-top: 0;
     font-family: 'Courier New', Courier, monospace;
     /*text-shadow: 3px 3px black; */
-    color: white;
+    color: mediumpurple;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: mediumpurple;
+    background-color: white;
     padding: 20px;
 }
 
  p {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: mediumpurple;
+    color: rgb(68, 53, 99);
+    background-color: white;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin-top: clamp(10px, 5vw,20px);

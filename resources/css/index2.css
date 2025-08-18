@@ -1,5 +1,5 @@
 body {
-    background-color: darkseagreen;
+    background-color: #fff;
     margin: 0px;
     padding:0px;
 
@@ -9,7 +9,7 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid darkseagreen;
+    border-bottom: 5px solid darkseagreen;
     width: 100%;
     z-index: 999;
     font-weight: bold;
@@ -87,25 +87,29 @@ body {
      max-width: calc(100% - 20px); /* never full width, always some margin */
     position: relative;
     z-index: 1;
+    border-radius: 3px;
      
 }
 
+.mainh2{
+    border-top: 6px solid darkseagreen;
+}
 
 h2{
     margin-top: 0;
     font-family: 'Courier New', Courier, monospace;
     /*text-shadow: 4px 4px black; */
-    color: white;
+    color:  darkseagreen;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: darkseagreen;
+    background-color:white;
     padding: 20px;
 }
 
  p {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: darkseagreen;
+    color:  rgb(60, 79, 60);
+    background-color: white;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin-top: clamp(10px, 5vw,20px);

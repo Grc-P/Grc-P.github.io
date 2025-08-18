@@ -2,17 +2,17 @@
 
 
 body {
-    background-color: #4FA1D1;
+    background-color: #fff;
     
     margin: 0px;
     padding:0px
 }
 
-/* cornflowerblue is a lovely colour alternative to black and white website */
+/* cornflowerblue is a lovely colour alternative to black and #4FA1D1 website */
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid #4FA1D1;
+    border-bottom: 5px solid #4FA1D1;
     
     width: 100%;
     z-index: 999;
@@ -86,7 +86,6 @@ body {
 .tagline {
     font-family: 'Courier New', Courier, monospace;
     color: #4FA1D1; 
-    
     text-shadow: none; 
     font-size: clamp(10px, 5vw, 25px);
     margin: 20px 10px;
@@ -98,26 +97,29 @@ body {
      max-width: calc(100% - 20px); /* never full width, always some margin */
     position: relative;
     z-index: 1;
+    border-radius: 3px;
      
 }
 
+.mainh2{
+    border-top: 6px solid #4FA1D1;
+}
 
 h2{
     margin-top: 0;
     font-family: 'Courier New', Courier, monospace;
    /* text-shadow: 3px 3px black; */
-    color: white;
+    color: #4FA1D1;
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
-    background-color: #4FA1D1;
-    
+    background-color: white;
     padding: 20px;
 }
 
  p {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: #4FA1D1; 
+    color: #284e63;
+    background-color: white; 
     
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
@@ -134,7 +136,7 @@ h2{
  }
 
 .bowl_imgs1 img {
-  margin: 20px auto;
+  margin: 1px auto;
   height: clamp(190px, 50vw, 500px);
   width: auto;
 }
@@ -158,7 +160,7 @@ h2{
  }
 
 .bowl_imgs3 img {
-  margin: 20px auto;
+  margin: 1px auto;
   width: clamp(190px, 80vw, 1700px);
   height: auto;
 }

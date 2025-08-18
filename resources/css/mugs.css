@@ -11,7 +11,7 @@ body {
 .navigation {
     box-sizing: border-box;
     background-color: #fff;
-    border-bottom: 2px solid white;
+    border-bottom: 5px solid rgb(86, 3, 105);
     width: 100%;
     z-index: 999;
      font-weight: bold;
@@ -89,12 +89,16 @@ body {
     padding: 0px 15px;
     font-weight: bold;
     background-color: white;
-     max-width: calc(100% - 20px); /* never full width, always some margin */
+    max-width: calc(100% - 20px); /* never full width, always some margin */
     position: relative;
     z-index: 1;
+    border-radius: 3px;
      
 }
 
+.mainh2 {
+    border-top: 6px solid  rgb(86, 3, 105);
+}
 
 h2{
     margin-top: 0;
