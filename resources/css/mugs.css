@@ -96,8 +96,14 @@ body {
      
 }
 
-.mainh2 {
+.introdiv, .mainh2, .intro {
     border-top: 6px solid  rgb(86, 3, 105);
+    background-color: rgb(86, 3, 105);
+    color:#fff
+}
+
+.introdiv{
+   padding-bottom: 15px
 }
 
 h2{

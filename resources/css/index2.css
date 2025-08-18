@@ -91,6 +91,15 @@ body {
      
 }
 
+.introdiv, .mainh2, .intro {
+    background-color: darkseagreen;
+    color:#fff
+}
+
+.introdiv{
+   padding-bottom: 15px
+}
+
 .mainh2{
     border-top: 6px solid darkseagreen;
 }
@@ -108,8 +117,6 @@ h2{
 
  p {
     font-family: 'Courier New', Courier, monospace;
-    color:  rgb(60, 79, 60);
-    background-color: white;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
     margin-top: clamp(10px, 5vw,20px);

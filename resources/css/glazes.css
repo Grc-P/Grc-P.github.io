@@ -96,8 +96,13 @@ body {
      
 }
 
-.mainh2{
-    border-top: 6px solid mediumpurple;
+.introdiv, .mainh2, .intro, .introdiv p{
+    background-color: mediumpurple;
+    color:#fff
+}
+
+.introdiv{
+   padding-bottom: 15px
 }
 
 h2{
