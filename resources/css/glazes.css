@@ -161,7 +161,7 @@ h2{
 
 .dunk_imgs img {
   margin: 0 10px;
-  width: clamp(50px, 50vw, 300px);
+  width: clamp(50px, 40vw, 300px);
   height: auto;
 }
 
@@ -169,3 +169,36 @@ h2{
 .bad_glazing h2 {
     margin-top: 25px;
 }
+
+.kiln_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media(min-width: 800px){
+    .kiln_info{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .kiln_info img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    .kiln_info p {
+        flex:1;
+        text-align: justify;
+    }
+    
+ }
+
+ .kiln{
+    width: 100%;
+    max-width: clamp(80px, 50vw, 500px);
+    height: auto;
+ }
