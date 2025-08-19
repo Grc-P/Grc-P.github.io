@@ -114,7 +114,7 @@ h2{
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
     background-color: white;
-    padding: 20px;
+    padding: 20px 0px 15px 0px;
 }
 
  p {
@@ -123,9 +123,9 @@ h2{
     background-color: white;
     text-align: center;
     font-size: clamp(10px, 5vw,20px);
-    margin-top: clamp(10px, 5vw,20px);
-    margin-left: clamp(2px,5vw,50px);
-    margin-right: clamp(2px,5vw,50px);
+    margin: 25px  auto;
+    padding: 0px 10px;
+    max-width: 1000px;
  }
 
 
@@ -133,6 +133,8 @@ h2{
     display: flex;
     gap:10px;
     justify-content: center;
+    margin: 25px  auto;
+    max-width: 900px;
  }
 
 .mug_imgs1 img {
@@ -145,7 +147,8 @@ h2{
     display: flex;
     gap:10px;
     justify-content: center;
-    margin-top: 25px;
+    margin: 25px  auto;
+    max-width: 900px;
  }
 
 .mug_imgs2 img {
@@ -160,6 +163,9 @@ h2{
     gap:10px;
     justify-content: center;
     margin-top: 25px;
+    margin: 25px  auto;
+    max-width: 900px;
+
  }
 
 .mug_imgs3 img {

@@ -112,7 +112,7 @@ h2{
     text-align: center;
     font-size: clamp(17px, 5vw, 35px);
     background-color:white;
-    padding: 20px;
+    padding: 20px 0px 15px 0px;
 }
 
  p {
@@ -122,18 +122,20 @@ h2{
     margin-top: clamp(10px, 5vw,20px);
     margin-left: clamp(2px,5vw,50px);
     margin-right: clamp(2px,5vw,50px);
+    margin: 25px  auto;
+    max-width: 900px;
 }
 
 .pots_home_imgs {
     display: flex;
     gap: 10px;
-    max-width: 700px; /* by limiting containter size can prevent images from spreading out too far apart */ 
+    max-width: 900px; /* by limiting containter size can prevent images from spreading out too far apart */ 
     justify-content: center;
     margin: 0 auto;  /* auto as second argument makes it align centrally in the horizontal axis */
 }
 
 .pots_home_imgs img {
   margin: 10px auto;
-  width: clamp(100px, 50vw, 500px);
+  width: clamp(100px, 50vw, 450px);
   object-fit: cover;
 }
