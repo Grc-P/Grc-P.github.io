@@ -127,7 +127,9 @@ h2{
 .pots_home_imgs {
     display: flex;
     gap: 10px;
+    max-width: 700px;
     justify-content: center;
+    margin: 0 auto;  /* auto as second argument makes it align centrally in the horizontal axis */
 }
 
 .pots_home_imgs img {
