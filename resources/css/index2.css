@@ -127,10 +127,11 @@ h2{
 .pots_home_imgs {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .pots_home_imgs img {
   margin: 10px auto;
   width: clamp(100px, 50vw, 500px);
-  height: auto;
+  object-fit: cover;
 }
