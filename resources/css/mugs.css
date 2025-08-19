@@ -185,12 +185,13 @@ h2{
     gap:10px;
     justify-content: center;
     max-width: 900px;
-    margin: 25px auto;
+    margin: 10px auto;
+    overflow: hidden;
  }
 
 .fallen1 img{
   margin: 0 auto;
-  width: clamp(100px, 50vw, 400px);
+  width: clamp(100px, 50vw, 500px);
   height: auto;
 }
 
@@ -198,27 +199,33 @@ h2{
     display: flex;
     gap:10px;
     justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+
  }
 
 .fallen2 img{
   margin: 0 auto;
-  width: clamp(100px, 50vw, 900px);
+  width: 100%;
+  max-width: 900px;
   height: auto;
-  padding-top: 10px;
 }
 
 .fallen3 {
     display: flex;
     gap:10px;
     justify-content: center;
-     max-width: 900px;
+    max-width: 900px;
     margin: 0px auto;
+    
  }
 
 .fallen3 img{
     margin: 0 auto;
     width: clamp(60px, 25vw, 300px);
     height: auto;
+    
    
 }
 
@@ -226,8 +233,8 @@ h2{
 .rip {
     background-color:black;
     padding-bottom: 1px; /* prevents original background colour showing at the very bottom of page */
-    padding-left: 20px;
-    padding-right: 50px
+    padding-left: 10px;
+    padding-right: 10px
 }
 
 .rip h2{
