@@ -134,6 +134,19 @@ h2{
  }
 
 
+.p_imgs {
+
+    display: flex;
+    max-width:400;
+    justify-content: center;
+}
+
+.p_imgs img {
+     margin: 2px auto;
+    height: clamp(40px, 40vw, 500px);
+    width: auto
+}
+
  .bowl_imgs1 {
     display: flex;
     gap:10px;
@@ -142,20 +155,20 @@ h2{
 
 .bowl_imgs1 img {
   margin: 1px auto;
-  height: clamp(190px, 50vw, 500px);
+  height: clamp(150px, 50vw, 500px);
   width: auto;
 }
 
  .bowl_imgs2 {
     display: flex;
-    gap:20px;
+    gap: 10px;
     justify-content: center;
  }
 
 .bowl_imgs2 img {
-  margin: 0 auto;
-  width: clamp(90px, 45vw, 500px);
+  width: clamp(90px, 45vw, 400px);
   height: auto;
+
 }
 
  .bowl_imgs3 {
