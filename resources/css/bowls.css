@@ -149,6 +149,19 @@ h2{
    
 }
 
+ .maggie_img{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+
+ }
+
+.maggie_img img {
+  margin: 1px auto;
+  width: clamp(190px, 70vw, 600px);
+  height: auto;
+}
+
  .bowl_imgs1 {
     display: flex;
     gap:10px;
@@ -157,7 +170,7 @@ h2{
 
 .bowl_imgs1 img {
   margin: 1px auto;
-  height: clamp(150px, 50vw, 500px);
+  height: clamp(150px, 55vw, 600px);
   width: auto;
 }
 
@@ -170,17 +183,16 @@ h2{
 .bowl_imgs2 img {
   width: clamp(90px, 45vw, 400px);
   height: auto;
-
 }
 
- .bowl_imgs3 {
+ .prog_imgs {
     display: flex;
-    gap:20px;
+    gap: 10px;
     justify-content: center;
+    margin-bottom:10px;
  }
 
-.bowl_imgs3 img {
-  margin: 1px auto;
-  width: clamp(190px, 80vw, 700px);
+.prog_imgs img {
+  width: clamp(90px, 45vw, 400px);
   height: auto;
 }
