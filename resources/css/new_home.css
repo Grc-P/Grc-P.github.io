@@ -1,0 +1,113 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 999;
+     font-weight: bold;
+}
+
+
+.navigation ul {
+    display:block ;                  
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;               /* removes the bullet points */
+    width:80%;
+    padding-left: 0px;
+    margin:10px 20px 10px 5px;
+}
+
+.navigation li {
+    display:inline-block;                         /* each item takes equal space */
+    text-align: left;   
+    margin-right:30px;
+    height: 10px;         /* center text inside slot */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.navigation li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation li a:hover{
+    text-decoration: underline;
+}
+
+    /* add stacked line menu icon to navigation! make it enlarge when hovered?*/
+
+  .menu-icon {
+  flex-direction: column;
+  width: 35px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top:9px;
+}  
+.menu-icon span {
+  display: block;
+  height: 3px;
+  margin-bottom: 10px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 400px; /* adjust as needed */
+}
+
+.b_img_box {
+flex: 3;
+  display: flex;             /* make it a flex container */
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical centering */
+  position: relative;
+  background-image: url('../images/optimised/banners/3-pot-cropped-final.webp');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;   
+  margin-left:5px;     
+}
+
+
+/* Overlay text */
+.b_img_box .brand {
+  left: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 2px 4px darkseagreen;
+  letter-spacing: 0.05em
+}
+
+/* Right side: welcome text */
+.welcome_box {
+  flex: 1; /* 1/4 of width */
+  background-color: darkseagreen;
+  padding: 20px;
+  margin: 0 0px 0 15px;
+  overflow: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.welcome_box h3{
+    font-size: 30px;
+    color: white;
+}
+
+.welcome_box p{
+    font-size: 18px;
+    color: white;
+}
